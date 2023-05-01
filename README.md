@@ -1,3 +1,3 @@
 # demo-git
 
-initial desc by user1
+initial description by user1
