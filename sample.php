@@ -4,11 +4,13 @@ class Person {
   private $name;
   private $age;
   private $height;
+  private $weight;
 
-  public function __construct($name, $age, $height) {
+  public function __construct($name, $age, $height, $weight) {
     $this->name = $name;
     $this->age = $age;
-    $this->age = $height;
+    $this->height = $height;
+    $this->weight = $weight;
   }
 
   public function hello() {
